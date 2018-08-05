@@ -33,5 +33,18 @@
 }
 
 .social {
-    &__item {}
+    &__item {
+        border-radius: 50%;
+        border-width: 2px;
+        border-color: #cccccc;
+        border-style: solid;
+        width: 26px;
+        height: 26px;
+        text-align: center;
+        vertical-align: middle;
+        color: #cccccc;
+        line-height: 1.5;
+        font-size: 14px;
+        font-weight: 400;
+    }
 }
