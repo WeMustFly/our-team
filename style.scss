@@ -1,0 +1,37 @@
+@import 'css/normalize.css';
+@import 'css/layout.css';
+
+@import 'https://fonts.googleapis.com/css?family=Roboto:900';
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,500';
+
+@import 'scss/variables';
+@import 'scss/ba-container';
+@import 'scss/title';
+
+.slider {
+    &__arrow {}
+}
+
+.switch {
+    &__item {}
+}
+
+.slide {
+    &__picture {}
+
+    &__border {}
+
+    &__name {
+        font-family: $font-family-heading;
+    }
+
+    &__position {}
+
+    &__description {}
+
+    &__view {}
+}
+
+.social {
+    &__item {}
+}
