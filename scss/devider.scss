@@ -1,0 +1,19 @@
+.devider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 30px;
+
+    &__item {
+        display: block;
+        background-color: $border-color;
+        width: 10px;
+        height: 4px;
+        margin: 5px;
+        
+        &--center {
+            width: 20px;
+        }
+    }
+}

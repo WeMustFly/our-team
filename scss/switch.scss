@@ -1,0 +1,21 @@
+.switch {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	
+    &__item {
+    	border-radius: 50%;
+    	border: 1px solid $border-color;
+    	background-color: $border-color;
+    	display: block;
+    	width: 12px;
+    	height: 12px;
+    	margin: 5px;
+    	
+    	cursor: pointer;
+    	
+    	&--active {
+    		background-color: transparent;
+    	}
+    }
+}

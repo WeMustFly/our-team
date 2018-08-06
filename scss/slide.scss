@@ -1,0 +1,95 @@
+.slide {
+    margin-bottom: 40px;
+    
+    &__side {
+        width: 50%;
+        float: left;
+        padding: 80px;
+
+        &--right {
+            float: right;
+            border-left: 1px solid $border-color;
+        }
+    }
+
+    &__picture {
+        width: 388px;
+        height: 388px;
+        border: 1px solid $border-color;
+    }
+
+    &__border {
+        position: relative;
+        width: 416px;
+        height: 416px;
+        padding: 14px;
+        border: 1px solid $border-color;
+
+        &--horizontal {
+            position: absolute;
+            top: 25%;
+            left: 0;
+            width: 416px;
+            height: 50%;
+            margin-left: -1px;
+            border-left: 1px solid #ffffff;
+            border-right: 1px solid #ffffff;
+        }
+
+        &--vertical {
+            position: absolute;
+            left: 25%;
+            top: 0;
+            width: 50%;
+            height: 416px;
+            margin-top: -1px;
+            border-top: 1px solid #ffffff;
+            border-bottom: 1px solid #ffffff;
+        }
+    }
+
+    &__name {
+        position: relative;
+        font-family: $font-family-heading;
+        color: $color-heading;
+        font-size: 36px;
+        font-weight: 900;
+        padding-bottom: 34px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            background-color: $border-color;
+            width: 100px;
+            height: 1px;
+            display: block;
+            bottom: 0;
+            left: 50%;
+            margin-left: -50px;
+        }
+    }
+
+    &__position {
+        color: $color-heading;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    &__description {
+        color: $color-text;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 22px;
+    }
+
+    &__view {
+        border: 1px solid $border-color;
+        padding: 7px 13px;
+
+        color: $color-heading;
+        font-size: 14px;
+        font-weight: 700;
+        
+        text-decoration: none;
+    }
+}

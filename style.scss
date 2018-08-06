@@ -7,44 +7,8 @@
 @import 'scss/variables';
 @import 'scss/ba-container';
 @import 'scss/title';
-
-.slider {
-    &__arrow {}
-}
-
-.switch {
-    &__item {}
-}
-
-.slide {
-    &__picture {}
-
-    &__border {}
-
-    &__name {
-        font-family: $font-family-heading;
-    }
-
-    &__position {}
-
-    &__description {}
-
-    &__view {}
-}
-
-.social {
-    &__item {
-        border-radius: 50%;
-        border-width: 2px;
-        border-color: #cccccc;
-        border-style: solid;
-        width: 26px;
-        height: 26px;
-        text-align: center;
-        vertical-align: middle;
-        color: #cccccc;
-        line-height: 1.5;
-        font-size: 14px;
-        font-weight: 400;
-    }
-}
+@import 'scss/slider';
+@import 'scss/switch';
+@import 'scss/slide';
+@import 'scss/social';
+@import 'scss/devider';
